@@ -2,7 +2,7 @@
 
 ![Assembled Tophat](Images/Assembly_2.jpg?raw=true)
 
-This mod for the Voron V0.1 adds four (4) LED mounting bars to the tophat and is designed to be minimumally intrusive and simple to build. It supports up to thirty (30) LEDs, which is the maximum officially supported using the BigTreeTech DCDC5V breakout power module. This guide assumes that you have a Voron V0.1 with a BigTreeTech SKR Mini E3 V2 controller board and the DCDC5V breakout power module (linked in the [BOM](@bill-of-materials) below.).
+This mod for the Voron V0.1 adds four (4) LED mounting bars to the tophat and is designed to be minimumally intrusive and simple to build. It supports up to thirty (30) LEDs, which is the maximum officially supported using the BigTreeTech DCDC5V breakout power module. This guide assumes that you have a Voron V0.1 with a BigTreeTech SKR Mini E3 V2 controller board and the DCDC5V breakout power module (linked in the [BOM](#bill-of-materials) below.).
 
 ***Note:*** The LED mounting bars are too long to fit on a Voron V0 bed. However, the Fusion 360 CAD file has been included, and new mounting bars can easily be created by changing the user parameters.
 

@@ -19,15 +19,15 @@ This mod for the Voron V0.1 adds four (4) LED mounting bars to the tophat and is
 
 The following parts are required (unless otherwise denoted) to complete the assembly:
 
-| Part | Quantity | Link | Alternate Link | Notes |
-| --- | :-: | --- | --- | --- |
-| BigTreeTech DCDC5V Power Module | 1 | https://www.biqu.equipment/products/bigtreetech-dcdc5v-v1-0-power-module-5v-for-skr-mini-e3-v1-2-skr-mini-e3-v3-0-32bit-control-board-rgb-light | | Required to run up to 30 total LEDs, otherwise the SKR Mini E3 V2 only supports up to 8 LEDs. |
-| WS2812B RGB IP65 5v LED Strip | 16.4 ft., 300 LEDs (OR) 3.2 f.t, 60 LEDs | https://amzn.to/3l4htHR | | Channels in the mounting bars are designed to fit this exact 10mm-wide LED strip. Any LED strip you use should be 5 volts, 10mm wide, and approximately 16.5mm in length or less per LED diode. |
-| 3-Pin 18 AWG PVC Copper Ribbon Wiring | 3+ ft. | https://amzn.to/3nSPr4d | | 3-pin ribbon wiring is easier to work with for this mod, but any wiring will work. The reviews for the linked part suggest this wiring may actually be 20 AWG, but that is probably preferred anyway. |
-| 1/4" Diameter Heat Shrink Tubing | 7 | https://amzn.to/3HMqvTM | | Heat shrink tubing will protect the solder joints on the LED wiring pads (otherwise the pads may rip off during assembly). Cut 7 pieces to about 1/2" long each. |
-| JST-XH 2.54mm 3-Pin Female Connector | 1 | https://amzn.to/30Vttoj | | A JST-XH or similar 2.54mm connector is required to plug the LED strips into the Neopixel pins on the SKR Mini E3 V2 board. |
+| Part | Quantity | Link | Notes |
+| --- | :-: | --- | --- |
+| BigTreeTech DCDC5V Power Module | 1 | https://www.biqu.equipment/products/bigtreetech-dcdc5v-v1-0-power-module-5v-for-skr-mini-e3-v1-2-skr-mini-e3-v3-0-32bit-control-board-rgb-light | Required to run up to 30 total LEDs, otherwise the SKR Mini E3 V2 only supports up to 8 LEDs. |
+| WS2812B RGB IP65 5v LED Strip | 16.4 ft., 300 LEDs (OR) 3.2 f.t, 60 LEDs | https://amzn.to/3l4htHR | Channels in the mounting bars are designed to fit this exact 10mm-wide LED strip. Any LED strip you use should be 5 volts, 10mm wide, and approximately 16.5mm in length or less per LED diode. |
+| 3-Pin 18 AWG PVC Copper Ribbon Wiring | 3+ ft. | https://amzn.to/3nSPr4d | 3-pin ribbon wiring is easier to work with for this mod, but any wiring will work. The reviews for the linked part suggest this wiring may actually be 20 AWG, but that is probably preferred anyway. |
+| 1/4" Diameter Heat Shrink Tubing | 7 | https://amzn.to/3HMqvTM | Heat shrink tubing will protect the solder joints on the LED wiring pads (otherwise the pads may rip off during assembly). Cut 7 pieces to about 1/2" long each. |
+| JST-XH 2.54mm 3-Pin Female Connector | 1 | https://amzn.to/30Vttoj | A JST-XH or similar 2.54mm connector is required to plug the LED strips into the Neopixel pins on the SKR Mini E3 V2 board. |
 | Molex Micro-Fit 3.0 3-Pin Male/Female Connectors | 1 each | https://amzn.to/3FLt3zN | | **Optional**. To be added in-line within the printer chamber to allow for quick disconnects when removing the tophat for maintenance. |
-| M3x10 Button Head Cap Screws | 8 | https://amzn.to/3HGdOd0 | https://www.boltdepot.com/Product-Details.aspx?product=22819 | These will replace the 8x M3x6 screws used to bolt the tophat center clips to the tophat frame. |
+| M3x10 Button Head Cap Screws | 8 | https://amzn.to/3HGdOd0 (OR) https://www.boltdepot.com/Product-Details.aspx?product=22819 | These will replace the 8x M3x6 screws used to bolt the tophat center clips to the tophat frame. |
 
 ## Recommended Tools
 
@@ -103,4 +103,4 @@ The LEDs can be changed by sending the command `SET_LED LED=my_neopixel RED={x} 
 ![Overview 4](Images/Overview_4.jpg?raw=true)
 
 ## Contributors
-- Preston Lanier (**@rplanier#11125** on Voron Discord)
+- Preston Lanier (**@rplanier#1125** on Voron Discord)
